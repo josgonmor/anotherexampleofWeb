@@ -2097,7 +2097,7 @@ input, select, textarea {
 
 /* Banner */
 
-	#banner {
+	#ConferenciaO {
 		position: relative;
 		overflow: hidden;
 		background: #fff;
@@ -2113,7 +2113,7 @@ input, select, textarea {
 		padding: 10em 0;
 	}
 
-		#banner p {
+		#ConferenciaO p {
 			font-weight: 400;
 			font-size: 2em;
 			line-height: 1.5em;
@@ -2122,15 +2122,15 @@ input, select, textarea {
 			margin: 0;
 		}
 
-		#banner strong {
+		#ConferenciaO strong {
 			color: inherit;
 		}
 
-		#banner > .container {
+		#ConferenciaO > .container {
 			position: relative;
 		}
 
-			#banner > .container:before, #banner > .container:after {
+			#ConferenciaO > .container:before, #ConferenciaO > .container:after {
 				content: '';
 				display: block;
 				position: absolute;
@@ -2142,11 +2142,179 @@ input, select, textarea {
 				opacity: 0.15;
 			}
 
-			#banner > .container:before {
+			#ConferenciaO > .container:before {
 				left: 0;
 			}
 
-			#banner > .container:after {
+			#ConferenciaO > .container:after {
+				-moz-transform: scaleX(-1);
+				-webkit-transform: scaleX(-1);
+				-ms-transform: scaleX(-1);
+				transform: scaleX(-1);
+				right: 0;
+			}
+	#ConferenciaE {
+		position: relative;
+		overflow: hidden;
+		background: #fff;
+		color: #fff;
+		text-align: center;
+		border-top: solid 2px #e5e5e5;
+		border-bottom: solid 2px #e5e5e5;
+		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px 8px 0px 0px #fff;
+		position: relative;
+		text-transform: uppercase;
+		background: url("../../images/banner.jpg");
+		background-size: cover;
+		padding: 10em 0;
+	}
+
+		#ConferenciaE p {
+			font-weight: 400;
+			font-size: 2em;
+			line-height: 1.5em;
+			letter-spacing: 4px;
+			text-align: center;
+			margin: 0;
+		}
+
+		#ConferenciaE strong {
+			color: inherit;
+		}
+
+		#ConferenciaE > .container {
+			position: relative;
+		}
+
+			#ConferenciaE > .container:before, #ConferenciaE > .container:after {
+				content: '';
+				display: block;
+				position: absolute;
+				top: 50%;
+				width: 35px;
+				height: 141px;
+				margin-top: -70px;
+				background: url("images/bracket.svg");
+				opacity: 0.15;
+			}
+
+			#ConferenciaE > .container:before {
+				left: 0;
+			}
+
+			#ConferenciaE > .container:after {
+				-moz-transform: scaleX(-1);
+				-webkit-transform: scaleX(-1);
+				-ms-transform: scaleX(-1);
+				transform: scaleX(-1);
+				right: 0;
+			}
+	#Editorial {
+		position: relative;
+		overflow: hidden;
+		background: #fff;
+		color: #fff;
+		text-align: center;
+		border-top: solid 2px #e5e5e5;
+		border-bottom: solid 2px #e5e5e5;
+		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px 8px 0px 0px #fff;
+		position: relative;
+		text-transform: uppercase;
+		background: url("../../images/banner.jpg");
+		background-size: cover;
+		padding: 10em 0;
+	}
+
+		#Editorial p {
+			font-weight: 400;
+			font-size: 2em;
+			line-height: 1.5em;
+			letter-spacing: 4px;
+			text-align: center;
+			margin: 0;
+		}
+
+		#Editorial strong {
+			color: inherit;
+		}
+
+		#Editorial > .container {
+			position: relative;
+		}
+
+			#Editorial > .container:before, #Editorial > .container:after {
+				content: '';
+				display: block;
+				position: absolute;
+				top: 50%;
+				width: 35px;
+				height: 141px;
+				margin-top: -70px;
+				background: url("images/bracket.svg");
+				opacity: 0.15;
+			}
+
+			#Editorial > .container:before {
+				left: 0;
+			}
+
+			#Editorial > .container:after {
+				-moz-transform: scaleX(-1);
+				-webkit-transform: scaleX(-1);
+				-ms-transform: scaleX(-1);
+				transform: scaleX(-1);
+				right: 0;
+			}
+	#MVP {
+		position: relative;
+		overflow: hidden;
+		background: #fff;
+		color: #fff;
+		text-align: center;
+		border-top: solid 2px #e5e5e5;
+		border-bottom: solid 2px #e5e5e5;
+		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px 8px 0px 0px #fff;
+		position: relative;
+		text-transform: uppercase;
+		background: url("../../images/banner.jpg");
+		background-size: cover;
+		padding: 10em 0;
+	}
+
+		#MVP p {
+			font-weight: 400;
+			font-size: 2em;
+			line-height: 1.5em;
+			letter-spacing: 4px;
+			text-align: center;
+			margin: 0;
+		}
+
+		#MVP strong {
+			color: inherit;
+		}
+
+		#MVP > .container {
+			position: relative;
+		}
+
+			#MVP > .container:before, #MVP > .container:after {
+				content: '';
+				display: block;
+				position: absolute;
+				top: 50%;
+				width: 35px;
+				height: 141px;
+				margin-top: -70px;
+				background: url("images/bracket.svg");
+				opacity: 0.15;
+			}
+
+			#MVP > .container:before {
+				left: 0;
+			}
+
+			#MVP > .container:after {
 				-moz-transform: scaleX(-1);
 				-webkit-transform: scaleX(-1);
 				-ms-transform: scaleX(-1);
@@ -2156,7 +2324,25 @@ input, select, textarea {
 
 /* Main */
 
-	#main {
+	#mainCO {
+		position: relative;
+		overflow: hidden;
+		background: #fff;
+		padding: 6em 0;
+	}
+	#mainCE {
+		position: relative;
+		overflow: hidden;
+		background: #fff;
+		padding: 6em 0;
+	}
+	#mainED {
+		position: relative;
+		overflow: hidden;
+		background: #fff;
+		padding: 6em 0;
+	}
+	#mainMVP {
 		position: relative;
 		overflow: hidden;
 		background: #fff;
